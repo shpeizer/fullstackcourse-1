@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+      <h1>FILL THIS FORM TO LEAVE A MESSAGE</h1>
+      <form action="GET">
+          <fieldset>
+            <Label for="fname">FULL NAME</Label><br>
+            <input type="text" name="fname"> 
+        </fieldset>
+          <fieldset>
+              <label for="useremail">EMAIL</label><br>
+              <input type= "email" name="useremail" required>
+          </fieldset>
+          <fieldset>
+                <label for="userid">ID NUMBER</label><br>
+                <input type="number" name="userid" minlength="9" maxlength="9">
+          </fieldset>
+          <fieldset>
+                <label for="usergender">GENDER</label><br>
+                <select name="" id="">
+                    <option value="female">FEMALE</option>
+                    <option value="male">MALE</option>
+                    <option value="nonbinary">NONBINARY</option>
+                    <option value="genderfluid">GENDERFLUID</option>
+                </select>
+          </fieldset>
+          <fieldset>
+              <label for="usermesseage">LEAVE YOUR MESSAGE HERE</label><br>
+              <input type="text" name="usermessage" size="50" width="50" required>
+          </fieldset>
+          <fieldset>
+              <button type="submit">
+                  SUBMIT
+              </button>
+          </fieldset>
+
+      </form>
+  </div>  
+</body>
+</html>
