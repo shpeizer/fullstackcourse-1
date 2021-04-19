@@ -1,0 +1,27 @@
+h1 {
+    font-size: 50px;
+    color: #1D680A;
+    font-style: oblique;
+    font-family: cursive;
+}
+label {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-style: oblique;
+    font-family: cursive;
+}
+button {
+    background-color: black;
+    color:blanchedalmond;
+    height: 40px;
+    font-style: oblique;
+    font-family: cursive;
+}
+fieldset {
+    border-color:#9cebeb;
+    background: cornflowerblue ;
+    border-radius: 10px;
+    border-width: 5px;
+    font-style: oblique;
+    font-family: cursive;
+}
