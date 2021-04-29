@@ -1,0 +1,113 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font: bolder;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    background-color: burlywood;
+    padding: 20px;
+}
+nav{
+    text-align: center;
+}
+#aboutme{
+    background-color: rgb(30, 201, 121);
+    padding: 20px;
+    height: 350px;
+}
+
+#aboutme .btn{
+    border-radius: 10%;
+    background-color: rgb(91, 204, 179);
+    display: inline;
+    border-style: none;
+}
+
+#aboutme .btn a {
+    color: white;
+}
+
+#aboutme img{
+    float: right;
+    width: 30%;
+    height: 270px;
+    padding: 10px;
+    margin: auto 10px;
+    border-radius: 10%;
+}
+
+#mywork{
+    padding: 20px;
+    background-color: burlywood;
+}
+#mywork .prj{
+    
+    border-style: none;
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+}
+
+#mywork img{
+    
+    width: 20%;
+    height: 200px;
+    padding: 10px;
+    margin: auto 10px;
+    border-radius: 10%;
+    display: inline-block;
+}
+#mywork .prjdis{
+    display: inline-block;
+    border-style: none;
+    width: 70%;
+}
+
+#contact{
+    background-color: rgb(135, 135, 170);
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+#contact .input1 {
+    border-bottom: black;
+    background-color: rgb(135, 135, 170);
+    max-width: 250px;
+    border-style: hidden;
+    border-bottom-style: solid;
+    margin: auto;
+}
+#contact input{
+    border-style: hidden;
+    background-color: rgb(135, 135, 170);
+}
+
+#contact #msg{
+    width: 350px;
+    height: 200px;
+    margin: auto;
+    border-style: none;
+}
+
+#contact #msg input{
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    margin: 10px;
+}
+
+#contact button{
+    margin: 20px;
+    border-style: none;
+    background-color: rgb(91, 204, 179);
+    color: white;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+footer{
+    text-align: center;
+    background-color: burlywood;
+}
